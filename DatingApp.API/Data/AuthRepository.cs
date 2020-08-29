@@ -51,7 +51,7 @@ namespace DatingApp.API.Data
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
 
-            return user; // Renvoie de l'utilisateur ?
+            return user; // Renvoi de l'utilisateur ?
         }
 
         private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
