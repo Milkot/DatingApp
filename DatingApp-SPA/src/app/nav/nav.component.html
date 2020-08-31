@@ -3,14 +3,14 @@
     <a class="navbar-brand" [routerLink]="['/home']">Beetic</a>
 
     <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
-      <li class="nav-item" routerLinkActive="router-link-active">
+      <li class="nav-item" RouterLinkActive="router-link-active">
         <a class="nav-link" [routerLink]="['/members']" >Matches
           <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item" routerLinkActive="router-link-active">
+      <li class="nav-item" RouterLinkActive="router-link-active">
         <a class="nav-link" [routerLink]="['/lists']" >Lists</a>
       </li>
-      <li class="nav-item" routerLinkActive="router-link-active">
+      <li class="nav-item" RouterLinkActive="router-link-active">
         <a class="nav-link" [routerLink]="['/messages']"  >Messages</a>
       </li>
     </ul>
